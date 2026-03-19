@@ -317,7 +317,7 @@ repo 内形成了一张密集的知识图谱，引用方式有三种：
 ```
 skill.md
 ├── 公共部分
-│   ├── 角色定义：你是 chenyang 的个人 ML System 学习助手
+│   ├── 角色定义：你是 allen 的个人 ML System 学习助手
 │   ├── 硬约束注入：中文优先、排除 Pending Review、commit hash 引用、信息获取不设限
 │   ├── 风格指南引用：读取 .learn/index/style-guide.md
 │   └── 知识图谱引用：读取 .learn/index/knowledge-graph.json

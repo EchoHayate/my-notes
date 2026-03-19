@@ -39,11 +39,12 @@
 ### 1.5 致谢
 
 - 对于重要文章（非短篇笔记），**必须**包含致谢。
-- 致谢风格**随意自然**（"各位大哥"风格），**不需要**标注公司/组织。
+- **必须先致谢本仓库的开源贡献者 ([zhaochenyang20](https://github.com/zhaochenyang20/Awesome-ML-SYS-Tutorial))**，这是硬性规则。
+- 整体致谢风格**随意自然**（"各位大哥/朋友"风格），**不需要**标注公司/组织。
 - 示例：
 
 ```
-照理，感谢各位大哥的讨论和支持：zhuoran，changyi，ji li，chengxi
+照理，先感谢为本仓库提交过代码和讨论的各位 contributors。同时也感谢各位朋友的日常支持：XXX，YYY，ZZZ
 ```
 
 ### 1.6 commit hash 自然出现
