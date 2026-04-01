@@ -138,6 +138,10 @@ $$
 
 ## ML System 基本功
 
+### PyTorch & Tensor Ops
+
+- [PyTorch Tensors：那些导致显存爆炸与 GPU 停滞的真实物理法则](./torch/tensor-ops/basic.md)：结合 SGLang 踩坑经验写下的 Tensor 核心机制与性能调优指南，非常推荐经常 OOM 的同学阅读。
+
 ### Transformers & Model Architecture
 
 - [Pending Review] [Transformer中的交叉注意力机制](./transformers/attention/cross_attention.md)：介绍 Transformer 中的交叉注意力机制，允许解码器访问和使用编码器的相关信息，同样有[英文版本](./transformers/attention/cross_attention_en.md)。

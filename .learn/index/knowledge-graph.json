@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-03-19",
+  "generated": "2026-03-31",
   "articles": [
     {
       "id": "step-time-and-scaling",
@@ -11,7 +11,7 @@
       "status": "published",
       "language": "zh",
       "references_to": [],
-      "referenced_by": ["Attention/RingAttention.md"],
+      "referenced_by": ["Attention/RingAttention.md", "torch/tensor-ops/basic.md"],
       "series": "rl-sys-deep-dive",
       "series_order": null,
       "prerequisites": [],
@@ -26,10 +26,25 @@
       "status": "published",
       "language": "zh",
       "references_to": [],
-      "referenced_by": [],
+      "referenced_by": ["torch/tensor-ops/basic.md"],
       "series": "attention",
       "series_order": 1,
       "prerequisites": ["rlhf/sys-design/step-time-and-scaling.md"],
+      "external_links": {}
+    },
+    {
+      "id": "torch-tensor-ops-basic",
+      "path": "torch/tensor-ops/basic.md",
+      "title": "PyTorch Tensors：那些导致显存爆炸与 GPU 停滞的真实物理法则",
+      "topics": ["PyTorch Tensor", "OOM", "Implicit Sync", "Memory Leak", "In-place Operations", "contiguous"],
+      "depth": "understand-reproduce",
+      "status": "published",
+      "language": "zh",
+      "references_to": ["Attention/RingAttention.md", "rlhf/sys-design/step-time-and-scaling.md"],
+      "referenced_by": [],
+      "series": "torch-basics",
+      "series_order": null,
+      "prerequisites": [],
       "external_links": {}
     }
   ]

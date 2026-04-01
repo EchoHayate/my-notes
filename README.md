@@ -124,6 +124,10 @@ Coming back to the topic, this series of podcasts started in August 2024, when I
 
 ## ML System Fundamentals
 
+### PyTorch & Tensor Ops
+
+- [PyTorch Tensors: The Real Physical Laws Behind OOM and GPU Stalls](./torch/tensor-ops/basic.md): A guide on core Tensor mechanisms and performance tuning based on SGLang experience, highly recommended for those who frequently encounter OOM.
+
 ### Transformers & Model Architecture
 
 - [Pending Review] [Cross-Attention Mechanism in Transformer](./transformers/attention/cross_attention_en.md): Introduction to the cross-attention mechanism in Transformers, allowing the decoder to access and use relevant information from the encoder. Also available in [Chinese version](./transformers/attention/cross_attention.md).
