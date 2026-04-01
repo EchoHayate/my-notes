@@ -20,9 +20,9 @@ description: Generate a comprehensive ML System learning plan based on a topic, 
 
 ### Step 1: 加载上下文
 
-1. 读取知识图谱：`.learn/index/knowledge-graph.json`
-2. 读取风格指南：`.learn/index/style-guide.md`
-3. 读取 agent 配置：`.learn/config.md`
+1. 读取知识图谱：`.agents/skills/learn-write/resources/index/knowledge-graph.json`
+2. 读取风格指南：`.agents/skills/learn-write/resources/index/style-guide.md`
+3. 读取 agent 配置：`.agents/skills/learn-write/resources/config.md`
 
 ### Step 2: 分析输入
 

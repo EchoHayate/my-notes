@@ -35,10 +35,10 @@ description: Execute the learn-write agent flow to compose learning notes in All
 
 ### Step 1: 加载上下文
 
-1. 读取知识图谱：`.learn/index/knowledge-graph.json`
-2. 读取风格指南：`.learn/index/style-guide.md`
-3. 读取 agent 配置：`.learn/config.md`
-4. 根据文章类型读取对应模板：`.learn/templates/[type].md`
+1. 读取知识图谱：`.agents/skills/learn-write/resources/index/knowledge-graph.json`
+2. 读取风格指南：`.agents/skills/learn-write/resources/index/style-guide.md`
+3. 读取 agent 配置：`.agents/skills/learn-write/resources/config.md`
+4. 根据文章类型读取对应模板：`.agents/skills/learn-write/resources/templates/[type].md`
 
 ### Step 2: 分析输入
 
@@ -67,7 +67,7 @@ description: Execute the learn-write agent flow to compose learning notes in All
 
 ### Step 4: 写作
 
-基于风格指南 (`.learn/index/style-guide.md`) 和对应模板，一次性写作完整文章。
+基于风格指南 (`.agents/skills/learn-write/resources/index/style-guide.md`) 和对应模板，一次性写作完整文章。
 
 #### 开篇结构
 

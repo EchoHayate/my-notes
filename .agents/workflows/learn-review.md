@@ -19,9 +19,9 @@ description: Perform an 8-dimension review on an existing note draft, and option
 
 ### Step 1: 加载上下文
 
-1. 读取知识图谱：`.learn/index/knowledge-graph.json`
-2. 读取风格指南：`.learn/index/style-guide.md`
-3. 读取 agent 配置：`.learn/config.md`
+1. 读取知识图谱：`.agents/skills/learn-write/resources/index/knowledge-graph.json`
+2. 读取风格指南：`.agents/skills/learn-write/resources/index/style-guide.md`
+3. 读取 agent 配置：`.agents/skills/learn-write/resources/config.md`
 
 ### Step 2: 分析输入
 
@@ -38,7 +38,7 @@ description: Perform an 8-dimension review on an existing note draft, and option
 
 #### 3.1 风格合规检查
 
-基于 `.learn/index/style-guide.md`，检查：
+基于 `.agents/skills/learn-write/resources/index/style-guide.md`，检查：
 
 - **开篇结构**：
   - [ ] 是否有个人动机/情感开篇？

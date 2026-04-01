@@ -12,7 +12,7 @@ description: Allen's ultimate ML System learning assistant. Master skill encompa
 ## 第一层：全局通用底座 (Global Rules)
 
 1. **中文第一原则**：所有沟通、产出和检查必须用中文，除非用户明确下发授权进行 `Translation` 步骤（详见后文 Review 流程）。
-2. **知识点网络联结 (Knowledge Graph & Cross-Ref)**：执行任何命令前，**强制要求**通过 `view_file` 或相关读取指令摸底 `c:\Users\11783\Desktop\my-notes\.learn\index\knowledge-graph.json`，确保新内容在系列、前置知识、后置指引上完美衔接。
+2. **知识点网络联结 (Knowledge Graph & Cross-Ref)**：执行任何命令前，**强制要求**通过 `view_file` 或相关读取指令摸底 `c:\Users\11783\Desktop\my-notes\.agents\skills\learn-write\resources\index\knowledge-graph.json`，确保新内容在系列、前置知识、后置指引上完美衔接。
 3. **永久禁断操作**：
    - 封禁 ASCII 图案 (`┌┐└┘`)。必须用 Markdown Table、Mermaid 或插入截图。
    - 封禁空泛的平铺罗列（Checklist 式散弹概念）。所有理论必须是“一环套一环”的严密推导。
